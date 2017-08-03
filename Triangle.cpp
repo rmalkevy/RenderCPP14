@@ -4,7 +4,8 @@
 
 #include "includes/Triangle.h"
 
-Triangle::Triangle(Vec3d &&a, Vec3d &&b, Vec3d &&c, Vec3d &&color)
+Triangle::Triangle(const Vec3d &&a, const Vec3d &&b,
+                   const Vec3d &&c, const Vec3d &&color)
 {
 	_posA = a;
 	_posB = b;
@@ -17,8 +18,8 @@ Triangle::Triangle(Vec3d &&a, Vec3d &&b, Vec3d &&c, Vec3d &&color)
 	_direction.Normalize();
 }
 
-Triangle::Triangle(Vec3d &&a, Vec3d &&b, Vec3d &&c,
-                   Vec3d &&direction, Vec3d &&color)
+Triangle::Triangle(const Vec3d &&a, const Vec3d &&b, const Vec3d &&c,
+                   const Vec3d &&color, const Vec3d &&direction)
 {
 	_posA = a;
 	_posB = b;

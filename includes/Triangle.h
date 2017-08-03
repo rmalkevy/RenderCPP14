@@ -10,8 +10,10 @@
 class Triangle : public IPrimitive
 {
 public:
-	Triangle(Vec3d &&a, Vec3d &&b, Vec3d &&c, Vec3d &&color);
-	Triangle(Vec3d &&a, Vec3d &&b, Vec3d &&c, Vec3d &&direction, Vec3d &&color);
+	Triangle(const Vec3d &&a, const Vec3d &&b, const Vec3d &&c,
+	         const Vec3d &&color);
+	Triangle(const Vec3d &&a, const Vec3d &&b, const Vec3d &&c,
+	         const Vec3d &&color, const Vec3d &&direction);
 	~Triangle() = default;
 	bool	Intersection(const Vec3d &rOrigin, const Vec3d &rDir,
 	                     std::shared_ptr<Camera> &camera) override ;
