@@ -9,7 +9,7 @@
 #include <list>
 #include "Camera.h"
 #include "Window.h"
-#include "Primitive.h"
+#include "IPrimitive.h"
 
 class Render final
 {

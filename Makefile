@@ -20,6 +20,7 @@ SRCCPP =		main.cpp \
                 Plane.cpp \
                 Cylinder.cpp \
                 Cone.cpp \
+                Triangle.cpp \
                 Vec3d.cpp \
                 Window.cpp \
                 KeyboardMouseControl.cpp

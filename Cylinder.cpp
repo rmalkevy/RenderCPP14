@@ -5,7 +5,8 @@
 #include "includes/Cylinder.h"
 #include "includes/RenderFunctions.h"
 
-Cylinder::Cylinder(Vec3d position, Vec3d direction, Vec3d color, double radius)
+Cylinder::Cylinder(Vec3d &&position, Vec3d &&direction,
+                   Vec3d &&color, double &&radius)
 {
     this->_position = position;
     this->_direction = direction;

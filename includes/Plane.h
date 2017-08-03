@@ -7,7 +7,7 @@
 
 #include "Vec3d.h"
 #include "Camera.h"
-#include "Primitive.h"
+#include "IPrimitive.h"
 
 class Plane : public IPrimitive
 {
@@ -22,9 +22,9 @@ public:
 
 
 private:
-    Vec3d position;
-    Vec3d direction;
-    Vec3d color;
+    Vec3d _position;
+    Vec3d _direction;
+    Vec3d _color;
     double t;
 };
 

@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/nfs/2016/r/rmalkevy/CLionProjects/Render/Plane.cpp" "/nfs/2016/r/rmalkevy/CLionProjects/Render/cmake-build-debug/CMakeFiles/Render.dir/Plane.cpp.o"
   "/nfs/2016/r/rmalkevy/CLionProjects/Render/Render.cpp" "/nfs/2016/r/rmalkevy/CLionProjects/Render/cmake-build-debug/CMakeFiles/Render.dir/Render.cpp.o"
   "/nfs/2016/r/rmalkevy/CLionProjects/Render/Sphere.cpp" "/nfs/2016/r/rmalkevy/CLionProjects/Render/cmake-build-debug/CMakeFiles/Render.dir/Sphere.cpp.o"
+  "/nfs/2016/r/rmalkevy/CLionProjects/Render/Triangle.cpp" "/nfs/2016/r/rmalkevy/CLionProjects/Render/cmake-build-debug/CMakeFiles/Render.dir/Triangle.cpp.o"
   "/nfs/2016/r/rmalkevy/CLionProjects/Render/Vec3d.cpp" "/nfs/2016/r/rmalkevy/CLionProjects/Render/cmake-build-debug/CMakeFiles/Render.dir/Vec3d.cpp.o"
   "/nfs/2016/r/rmalkevy/CLionProjects/Render/Window.cpp" "/nfs/2016/r/rmalkevy/CLionProjects/Render/cmake-build-debug/CMakeFiles/Render.dir/Window.cpp.o"
   "/nfs/2016/r/rmalkevy/CLionProjects/Render/main.cpp" "/nfs/2016/r/rmalkevy/CLionProjects/Render/cmake-build-debug/CMakeFiles/Render.dir/main.cpp.o"

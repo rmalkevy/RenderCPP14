@@ -7,12 +7,12 @@
 
 //#include "Vec3d.h"
 //#include "Camera.h"
-#include "Primitive.h"
+#include "IPrimitive.h"
 
 class Sphere : public IPrimitive
 {
 public:
-	Sphere(Vec3d position, Vec3d color, double radius); // TODO додати аргумент direction
+	Sphere(Vec3d &&position, Vec3d &&color, double &&radius); // TODO додати аргумент direction
 	~Sphere() = default;
 	bool	Intersection(const Vec3d &rOrigin, const Vec3d &rDir,
 	                     std::shared_ptr<Camera> &camera) override ;
@@ -22,7 +22,6 @@ public:
 
 private:
 	Vec3d _pos;
-    Vec3d _direction;
 	Vec3d _color;
 	double _radius; // TODO зробити за допомогою цієї змінної пульсуючу кулю
 	double _sqRadius;

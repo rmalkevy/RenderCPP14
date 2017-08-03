@@ -112,6 +112,9 @@
 		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/Render/Sphere.cpp">
 			<Option target="Render"/>
 		</Unit>
+		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/Render/Triangle.cpp">
+			<Option target="Render"/>
+		</Unit>
 		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/Render/Vec3d.cpp">
 			<Option target="Render"/>
 		</Unit>
@@ -119,6 +122,9 @@
 			<Option target="Render"/>
 		</Unit>
 		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/Render/includes">
+			<Option target="Render"/>
+		</Unit>
+		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/Render/includes/Triangle.h">
 			<Option target="Render"/>
 		</Unit>
 		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/Render/main.cpp">

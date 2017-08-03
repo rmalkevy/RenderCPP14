@@ -1,4 +1,5 @@
 
+#include "includes/Triangle.h"
 #include "includes/Render.h"
 #include "includes/Sphere.h"
 #include "includes/Plane.h"
@@ -164,6 +165,11 @@ void	RenderImage(std::shared_ptr<Render> &render)
    // std::cout << "break point " << a << std::endl;
 }
 
+// TODO для оптимізації роботи програми необхідно додати в list id,
+// за допомогою якого я буду вираховувати тільки один раз нормаль.
+// Тобто я пройдусь по всіх об'єктах і визначу, який найближчий, а потім уже буду
+// шукати нормаль
+
 int main()
 {
 	// Create window
@@ -183,6 +189,7 @@ int main()
 	listPrimitives.push_back(std::make_shared<Plane>(Vec3d(0, 200, 0), Vec3d(0, -1, 0), Vec3d(0.5, 0.9, 0)));
     listPrimitives.push_back(std::make_shared<Cylinder>(Vec3d(200, 0, 0), Vec3d(0, 1, 0), Vec3d(1, 0, 0), 100));
 	listPrimitives.push_back(std::make_shared<Cone>(Vec3d(-200, 0, -200), Vec3d(0, 1, 0), Vec3d(0.9, 0.5, 0.4), 20));
+	listPrimitives.push_back(std::make_shared<Triangle>(Vec3d(-200, 0, 0), Vec3d(100, 0, 0), Vec3d(-50, -300, 20), Vec3d(1, 0, 0)));
 
     auto render = std::make_shared<Render>(window, camera, listPrimitives);
 	RenderImage(render);

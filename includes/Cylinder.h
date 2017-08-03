@@ -5,12 +5,12 @@
 #ifndef RENDERCPP_CYLINDER_H
 #define RENDERCPP_CYLINDER_H
 
-#include "Primitive.h"
+#include "IPrimitive.h"
 
 class Cylinder : public IPrimitive
 {
 public:
-    Cylinder(Vec3d position, Vec3d direction, Vec3d color, double radius);
+    Cylinder(Vec3d &&position, Vec3d &&direction, Vec3d &&color, double &&radius);
     ~Cylinder() = default;
     bool	Intersection(const Vec3d &rOrigin, const Vec3d &rDir,
                          std::shared_ptr<Camera> &camera) override ;

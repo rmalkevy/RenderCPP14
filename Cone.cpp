@@ -5,7 +5,7 @@
 #include "includes/Cone.h"
 #include "includes/RenderFunctions.h"
 
-Cone::Cone(Vec3d position, Vec3d direction, Vec3d color, double angle)
+Cone::Cone(Vec3d &&position, Vec3d &&direction, Vec3d &&color, double &&angle)
 {
     this->position = position;
     this->direction = direction;
@@ -15,7 +15,8 @@ Cone::Cone(Vec3d position, Vec3d direction, Vec3d color, double angle)
     this->sqSin = sin(this->angle) * sin(this->angle);
 }
 
-bool Cone::Intersection(const Vec3d &rOrigin, const Vec3d &rDir, std::shared_ptr<Camera> &camera)
+bool Cone::Intersection(const Vec3d &rOrigin, const Vec3d &rDir,
+                        std::shared_ptr<Camera> &camera)
 {
     int     A = 0;
     int     B = 1;
@@ -34,13 +35,14 @@ bool Cone::Intersection(const Vec3d &rOrigin, const Vec3d &rDir, std::shared_ptr
     mult[B] = direction * dot[B];
     sub[B] = delta_p - mult[B];
 
-	double a = sqCos * sub[A].Dot(sub[A]) - ( sqSin * dot[A] * dot[A] );
+	double a = sqCos * sub[A].Dot(sub[A])
+	           - ( sqSin * dot[A] * dot[A] );
 
-	double b = 2 * sqCos * sub[A].Dot(sub[B]);
-    b -= ( 2 * sqSin * dot[A] * dot[B] );
+	double b = 2 * sqCos * sub[A].Dot(sub[B])
+	           - ( 2 * sqSin * dot[A] * dot[B] );
 
-	double c = sqCos * sub[B].Dot(sub[B]);
-    c -= ( sqSin * dot[B] * dot[B] );
+	double c = sqCos * sub[B].Dot(sub[B])
+	           - ( sqSin * dot[B] * dot[B] );
 
     double discr = b * b - 4 * a * c;
 
@@ -53,11 +55,9 @@ bool Cone::Intersection(const Vec3d &rOrigin, const Vec3d &rDir, std::shared_ptr
     t0 = MinDistance(t0, t1);
     if (t0 < camera->getMaxDistance() && t0 > 0.00001)
     {
-//	    std::cout << "cone"<< std::endl;
         camera->setMaxDistance(t0);
         return (true);
     }
-//	std::cout << "cone"<< std::endl;
     return (false);
 }
 

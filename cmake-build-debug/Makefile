@@ -339,6 +339,33 @@ Sphere.cpp.s:
 	$(MAKE) -f CMakeFiles/Render.dir/build.make CMakeFiles/Render.dir/Sphere.cpp.s
 .PHONY : Sphere.cpp.s
 
+Triangle.o: Triangle.cpp.o
+
+.PHONY : Triangle.o
+
+# target to build an object file
+Triangle.cpp.o:
+	$(MAKE) -f CMakeFiles/Render.dir/build.make CMakeFiles/Render.dir/Triangle.cpp.o
+.PHONY : Triangle.cpp.o
+
+Triangle.i: Triangle.cpp.i
+
+.PHONY : Triangle.i
+
+# target to preprocess a source file
+Triangle.cpp.i:
+	$(MAKE) -f CMakeFiles/Render.dir/build.make CMakeFiles/Render.dir/Triangle.cpp.i
+.PHONY : Triangle.cpp.i
+
+Triangle.s: Triangle.cpp.s
+
+.PHONY : Triangle.s
+
+# target to generate assembly for a file
+Triangle.cpp.s:
+	$(MAKE) -f CMakeFiles/Render.dir/build.make CMakeFiles/Render.dir/Triangle.cpp.s
+.PHONY : Triangle.cpp.s
+
 Vec3d.o: Vec3d.cpp.o
 
 .PHONY : Vec3d.o
@@ -453,6 +480,9 @@ help:
 	@echo "... Sphere.o"
 	@echo "... Sphere.i"
 	@echo "... Sphere.s"
+	@echo "... Triangle.o"
+	@echo "... Triangle.i"
+	@echo "... Triangle.s"
 	@echo "... Vec3d.o"
 	@echo "... Vec3d.i"
 	@echo "... Vec3d.s"

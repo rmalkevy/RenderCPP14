@@ -5,7 +5,7 @@
 #include "includes/Sphere.h"
 #include "includes/RenderFunctions.h"
 
-Sphere::Sphere( Vec3d position, Vec3d color, double radius )
+Sphere::Sphere( Vec3d &&position, Vec3d &&color, double &&radius )
 {
 	this->_pos = position;
 	this->_color = color;
