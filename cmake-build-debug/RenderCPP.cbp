@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="RenderCPP"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RenderCPP">
+				<Option output="/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/cmake-build-debug/RenderCPP" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 RenderCPP"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RenderCPP/fast">
+				<Option output="/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/cmake-build-debug/RenderCPP" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 RenderCPP/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/Camera.cpp">
+			<Option target="RenderCPP"/>
+		</Unit>
+		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/Cone.cpp">
+			<Option target="RenderCPP"/>
+		</Unit>
+		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/Cylinder.cpp">
+			<Option target="RenderCPP"/>
+		</Unit>
+		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/KeyboardMouseControl.cpp">
+			<Option target="RenderCPP"/>
+		</Unit>
+		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/Light.cpp">
+			<Option target="RenderCPP"/>
+		</Unit>
+		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/PhongColor.cpp">
+			<Option target="RenderCPP"/>
+		</Unit>
+		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/Plane.cpp">
+			<Option target="RenderCPP"/>
+		</Unit>
+		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/Render.cpp">
+			<Option target="RenderCPP"/>
+		</Unit>
+		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/Sphere.cpp">
+			<Option target="RenderCPP"/>
+		</Unit>
+		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/Vec3d.cpp">
+			<Option target="RenderCPP"/>
+		</Unit>
+		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/Window.cpp">
+			<Option target="RenderCPP"/>
+		</Unit>
+		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/includes">
+			<Option target="RenderCPP"/>
+		</Unit>
+		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/includes/Cone.h">
+			<Option target="RenderCPP"/>
+		</Unit>
+		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/includes/Cylinder.h">
+			<Option target="RenderCPP"/>
+		</Unit>
+		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/includes/Plane.h">
+			<Option target="RenderCPP"/>
+		</Unit>
+		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/includes/Primitive.h">
+			<Option target="RenderCPP"/>
+		</Unit>
+		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/includes/RenderFunctions.h">
+			<Option target="RenderCPP"/>
+		</Unit>
+		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/main.cpp">
+			<Option target="RenderCPP"/>
+		</Unit>
+		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
