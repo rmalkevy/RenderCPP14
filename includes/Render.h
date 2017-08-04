@@ -15,12 +15,12 @@ class Render final
 {
 public:
     Render(std::unique_ptr<Window> &window,
-           std::shared_ptr<Camera> &camera,
+           std::unique_ptr<Camera> &camera,
            std::list<std::shared_ptr<IPrimitive>> &listPrimitives);
 
-    ~Render() = default;
+    ~Render();
 	std::unique_ptr<Window> window;
-	std::shared_ptr<Camera> camera;
+	std::unique_ptr<Camera> camera;
 	std::list<std::shared_ptr<IPrimitive>> listPrimitives;
 // TODO зробити клас, який зберігатиме проміжні результати роботи інших класів і функцій
 };

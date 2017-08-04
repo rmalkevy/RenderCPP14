@@ -4,8 +4,8 @@
 
 #include "includes/Triangle.h"
 
-Triangle::Triangle(const Vec3d &&a, const Vec3d &&b,
-                   const Vec3d &&c, const Vec3d &&color)
+Triangle::Triangle(const Vec3d &&a, const Vec3d &&b, const Vec3d &&c,
+                   const Vec3d &&color)
 {
 	_posA = a;
 	_posB = b;
@@ -32,7 +32,7 @@ Triangle::Triangle(const Vec3d &&a, const Vec3d &&b, const Vec3d &&c,
 }
 
 bool Triangle::Intersection(const Vec3d &rOrigin, const Vec3d &rDir,
-                            std::shared_ptr<Camera> &camera)
+                            std::unique_ptr<Camera> &camera)
 {
 	Vec3d pVec = rDir.Cross(_edge2);
 	double det = _edge1.Dot(pVec);

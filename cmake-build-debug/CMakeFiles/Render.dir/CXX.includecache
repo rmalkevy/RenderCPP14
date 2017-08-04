@@ -46,6 +46,10 @@ includes/Sphere.h
 includes/RenderFunctions.h
 /nfs/2016/r/rmalkevy/CLionProjects/Render/includes/RenderFunctions.h
 
+/nfs/2016/r/rmalkevy/CLionProjects/Render/Triangle.cpp
+includes/Triangle.h
+/nfs/2016/r/rmalkevy/CLionProjects/Render/includes/Triangle.h
+
 /nfs/2016/r/rmalkevy/CLionProjects/Render/Vec3d.cpp
 includes/Vec3d.h
 /nfs/2016/r/rmalkevy/CLionProjects/Render/includes/Vec3d.h
@@ -61,12 +65,18 @@ Light.h
 /nfs/2016/r/rmalkevy/CLionProjects/Render/includes/Light.h
 
 /nfs/2016/r/rmalkevy/CLionProjects/Render/includes/Cone.h
-Primitive.h
-/nfs/2016/r/rmalkevy/CLionProjects/Render/includes/Primitive.h
+IPrimitive.h
+/nfs/2016/r/rmalkevy/CLionProjects/Render/includes/IPrimitive.h
 
 /nfs/2016/r/rmalkevy/CLionProjects/Render/includes/Cylinder.h
-Primitive.h
-/nfs/2016/r/rmalkevy/CLionProjects/Render/includes/Primitive.h
+IPrimitive.h
+/nfs/2016/r/rmalkevy/CLionProjects/Render/includes/IPrimitive.h
+
+/nfs/2016/r/rmalkevy/CLionProjects/Render/includes/IPrimitive.h
+Vec3d.h
+/nfs/2016/r/rmalkevy/CLionProjects/Render/includes/Vec3d.h
+Camera.h
+/nfs/2016/r/rmalkevy/CLionProjects/Render/includes/Camera.h
 
 /nfs/2016/r/rmalkevy/CLionProjects/Render/includes/KeyboardMouseControl.h
 Window.h
@@ -85,14 +95,8 @@ Vec3d.h
 /nfs/2016/r/rmalkevy/CLionProjects/Render/includes/Vec3d.h
 Camera.h
 /nfs/2016/r/rmalkevy/CLionProjects/Render/includes/Camera.h
-Primitive.h
-/nfs/2016/r/rmalkevy/CLionProjects/Render/includes/Primitive.h
-
-/nfs/2016/r/rmalkevy/CLionProjects/Render/includes/Primitive.h
-Vec3d.h
-/nfs/2016/r/rmalkevy/CLionProjects/Render/includes/Vec3d.h
-Camera.h
-/nfs/2016/r/rmalkevy/CLionProjects/Render/includes/Camera.h
+IPrimitive.h
+/nfs/2016/r/rmalkevy/CLionProjects/Render/includes/IPrimitive.h
 
 /nfs/2016/r/rmalkevy/CLionProjects/Render/includes/Render.h
 iostream
@@ -103,8 +107,8 @@ Camera.h
 /nfs/2016/r/rmalkevy/CLionProjects/Render/includes/Camera.h
 Window.h
 /nfs/2016/r/rmalkevy/CLionProjects/Render/includes/Window.h
-Primitive.h
-/nfs/2016/r/rmalkevy/CLionProjects/Render/includes/Primitive.h
+IPrimitive.h
+/nfs/2016/r/rmalkevy/CLionProjects/Render/includes/IPrimitive.h
 
 /nfs/2016/r/rmalkevy/CLionProjects/Render/includes/RenderFunctions.h
 Render.h
@@ -113,8 +117,12 @@ Vec3d.h
 /nfs/2016/r/rmalkevy/CLionProjects/Render/includes/Vec3d.h
 
 /nfs/2016/r/rmalkevy/CLionProjects/Render/includes/Sphere.h
-Primitive.h
-/nfs/2016/r/rmalkevy/CLionProjects/Render/includes/Primitive.h
+IPrimitive.h
+/nfs/2016/r/rmalkevy/CLionProjects/Render/includes/IPrimitive.h
+
+/nfs/2016/r/rmalkevy/CLionProjects/Render/includes/Triangle.h
+IPrimitive.h
+/nfs/2016/r/rmalkevy/CLionProjects/Render/includes/IPrimitive.h
 
 /nfs/2016/r/rmalkevy/CLionProjects/Render/includes/Vec3d.h
 iostream
@@ -129,6 +137,8 @@ iostream
 /nfs/2016/r/rmalkevy/CLionProjects/Render/minilibx/mlx.h
 
 /nfs/2016/r/rmalkevy/CLionProjects/Render/main.cpp
+includes/Triangle.h
+/nfs/2016/r/rmalkevy/CLionProjects/Render/includes/Triangle.h
 includes/Render.h
 /nfs/2016/r/rmalkevy/CLionProjects/Render/includes/Render.h
 includes/Sphere.h

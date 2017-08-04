@@ -11,6 +11,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Render.dir/Cone.cpp.o"
   "CMakeFiles/Render.dir/Sphere.cpp.o"
   "CMakeFiles/Render.dir/Triangle.cpp.o"
+  "CMakeFiles/Render.dir/Matrix.cpp.o"
   "Render.pdb"
   "Render"
 )

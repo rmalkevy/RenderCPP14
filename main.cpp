@@ -22,7 +22,7 @@ void    putColorToPixel(std::unique_ptr<Window> &window, const Vec3d &color, con
     window->line[pixel + 2] = (unsigned char)(color.GetX() * 255);
 }
 
-Vec3d	makePixelColor(std::shared_ptr<Camera> &camera, const double &intensity)
+Vec3d	makePixelColor(std::unique_ptr<Camera> &camera, const double &intensity)
 {
 //    std::cout << "x = " << camera.normal.x << " y = " << camera.normal.y << " z = " << camera.normal.x << std::endl;
     double lambert = camera->light._rayDirection.Dot(camera->hitNormal);
@@ -32,7 +32,7 @@ Vec3d	makePixelColor(std::shared_ptr<Camera> &camera, const double &intensity)
     return Vec3d(red, green, blue);
 }
 
-bool   findShadow(std::shared_ptr<Camera> &camera,
+bool   findShadow(std::unique_ptr<Camera> &camera,
                   std::list<std::shared_ptr<IPrimitive>> &listPrimitives,
                   Vec3d rayOrig,
                   Vec3d rayDir )
@@ -45,7 +45,7 @@ bool   findShadow(std::shared_ptr<Camera> &camera,
     return false;
 }
 
-Vec3d	tracingLight( std::shared_ptr<Camera> &camera,
+Vec3d	tracingLight( std::unique_ptr<Camera> &camera,
                       std::list<std::shared_ptr<IPrimitive>> &listPrimitives )
 {
     Vec3d distance = camera->light._position - camera->hitPoint;
@@ -67,7 +67,7 @@ Vec3d	tracingLight( std::shared_ptr<Camera> &camera,
 	return makePixelColor(camera, 0.5);
 }
 
-void	RenderPixel(std::shared_ptr<Camera> &camera,
+void	RenderPixel(std::unique_ptr<Camera> &camera,
                     std::list<std::shared_ptr<IPrimitive>> &listPrimitives,
                     Vec3d rayOrig,
                     Vec3d rayDir)
@@ -112,37 +112,6 @@ void	TracingScreen(std::shared_ptr<Render> &render)
     }
 }
 
-//int		control(int keycode, void *mod)
-//{
-////    std::cout << "break point" << std::endl;
-//
-//    auto render = (Render*)mod;
-//    mlx_destroy_image(render->window->GetMlx(), render->window->GetImage());
-//
-//    if (keycode == 53)
-//    {
-////        mlx_destroy_window(render->window->getMlx(), render->window->getWin());
-////        delete render->camera;
-////        delete render->window;
-////        delete render->listObjects;
-////        std::cout << "break point" << std::endl;
-//        exit(0);
-//    }
-////    addition_funct(keycode, mod);
-//    // if (keycode == 0)
-//    //     tracingScreen(*render->window, *render->camera, *render->listObjects);
-//    return (0);
-//}
-
-
-// void keyboardControl(Render &render)
-// {
-//     //TODO зробити клас, який буде включати в себе Window, Camera, List
-
-//     mlx_hook(render.window->getWin(), 2, 5, (int (*)())control, (void*)(&render));
-//     return ;
-// }
-
 static int a = -1;
 
 void	RenderImage(std::shared_ptr<Render> &render)
@@ -179,17 +148,17 @@ int main()
 	Light light(Vec3d(500, -400, -500), Vec3d(1, 1, 1));
 
 	// Create camera
-	auto camera = std::make_shared<Camera>(Vec3d(0, 0, -2000), light);
+	auto camera = std::make_unique<Camera>(Vec3d(0, 0, -2000), light);
 
 	// Create list of objects
 	std::list<std::shared_ptr<IPrimitive>> listPrimitives;
-    listPrimitives.push_back(std::make_shared<Sphere>(Vec3d(0, 0, -100), Vec3d(1, 0, 0), 80));
-    listPrimitives.push_back(std::make_shared<Sphere>(Vec3d(0, -100, -200), Vec3d(0, 1, 0), 100));
-    listPrimitives.push_back(std::make_shared<Sphere>(Vec3d(100, 0, -100), Vec3d(0, 0, 1), 90));
-	listPrimitives.push_back(std::make_shared<Plane>(Vec3d(0, 200, 0), Vec3d(0, -1, 0), Vec3d(0.5, 0.9, 0)));
-    listPrimitives.push_back(std::make_shared<Cylinder>(Vec3d(200, 0, 0), Vec3d(0, 1, 0), Vec3d(1, 0, 0), 100));
-	listPrimitives.push_back(std::make_shared<Cone>(Vec3d(-200, 0, -200), Vec3d(0, 1, 0), Vec3d(0.9, 0.5, 0.4), 20));
-	listPrimitives.push_back(std::make_shared<Triangle>(Vec3d(-200, 0, 0), Vec3d(100, 0, 0), Vec3d(-50, -300, 20), Vec3d(1, 0, 0)));
+    listPrimitives.push_back(std::make_unique<Sphere>(Vec3d(0, 0, -100), Vec3d(1, 0, 0), 80));
+    listPrimitives.push_back(std::make_unique<Sphere>(Vec3d(0, -100, -200), Vec3d(0, 1, 0), 100));
+    listPrimitives.push_back(std::make_unique<Sphere>(Vec3d(100, 0, -100), Vec3d(0, 0, 1), 90));
+	listPrimitives.push_back(std::make_unique<Plane>(Vec3d(0, 200, 0), Vec3d(0, -1, 0), Vec3d(0.5, 0.9, 0)));
+    listPrimitives.push_back(std::make_unique<Cylinder>(Vec3d(200, 0, 0), Vec3d(0, 1, 0), Vec3d(1, 0, 0), 100));
+	listPrimitives.push_back(std::make_unique<Cone>(Vec3d(-200, 0, -200), Vec3d(0, 1, 0), Vec3d(0.9, 0.5, 0.4), 20));
+//	listPrimitives.push_back(std::make_unique<Triangle>(Vec3d(-200, 0, -500), Vec3d(200, 0, 500), Vec3d(-50, -300, 300), Vec3d(1, 0, 0)));
 
     auto render = std::make_shared<Render>(window, camera, listPrimitives);
 	RenderImage(render);

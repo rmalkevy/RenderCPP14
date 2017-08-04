@@ -48,24 +48,24 @@ double Vec3d::Cos(Vec3d const &v) const
 	return (this->Dot(v) / (this->Dot(*this) * v.Dot(v)));
 }
 
+
 /*
  * Getters
  */
 
-double Vec3d::GetX() const
-{
-	return x;
-}
+double &Vec3d::GetX() const { return x; }
+double &Vec3d::GetY() const { return y; }
+double &Vec3d::GetZ() const { return z; }
 
-double Vec3d::GetY() const
-{
-	return y;
-}
 
-double Vec3d::GetZ() const
-{
-	return z;
-}
+/*
+ * Setters
+ */
+
+void Vec3d::SetX(const double &xx) { x = xx; }
+void Vec3d::SetY(const double &yy) { y = yy; }
+void Vec3d::SetZ(const double &zz) { z = zz; }
+
 
 /*
  * Implementation of overload operators

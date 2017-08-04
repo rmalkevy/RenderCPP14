@@ -36,7 +36,7 @@ void Camera::setPosition(Vec3d const &orig)
 
 void Camera::setAngle(Vec3d const &angle)
 {
-	this->angle = angle;
+	this->angle3d = angle;
 }
 
 void Camera::setMaxDistance(double const &dist)
@@ -56,7 +56,7 @@ Vec3d Camera::getPosition() const
 
 Vec3d Camera::getAngle() const
 {
-	return this->angle;
+	return this->angle3d;
 }
 
 double Camera::getMaxDistance() const

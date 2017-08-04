@@ -11,7 +11,7 @@ set(SOURCE_FILES main.cpp
         Render.cpp
         Vec3d.cpp Window.cpp Camera.cpp KeyboardMouseControl.cpp
         Light.cpp
-        Plane.cpp Cylinder.cpp Cone.cpp Sphere.cpp Triangle.cpp includes/Triangle.h)
+        Plane.cpp Cylinder.cpp Cone.cpp Sphere.cpp Triangle.cpp includes/Triangle.h includes/Matrix.h Matrix.cpp)
 
 add_executable(Render ${SOURCE_FILES})
 

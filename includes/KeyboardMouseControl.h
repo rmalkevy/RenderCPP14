@@ -14,13 +14,13 @@ class KeyboardMouseControl
 public:
     explicit KeyboardMouseControl(std::shared_ptr<Render> &render);
 	KeyboardMouseControl(KeyboardMouseControl &control) : _render(control._render){}
-    ~KeyboardMouseControl() = default;
+    ~KeyboardMouseControl();
 //	KeyboardMouseControl &operator = (const KeyboardMouseControl &control);
 
     void KeyboardControl();
 
 private:
-	std::shared_ptr<Render> _render = nullptr;
+	std::shared_ptr<Render> _render;
 };
 
 #endif //RENDERCPP_KEYBOARDMOUSECONTROL_H

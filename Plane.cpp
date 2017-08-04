@@ -11,7 +11,8 @@ Plane::Plane(Vec3d position, Vec3d direction, Vec3d color)
     this->_color = color;
 }
 
-bool Plane::Intersection(const Vec3d &rOrigin, const Vec3d &rDir, std::shared_ptr<Camera> &camera)
+bool Plane::Intersection(const Vec3d &rOrigin, const Vec3d &rDir,
+                         std::unique_ptr<Camera> &camera)
 {
     double a = this->_direction.Dot(rDir);
     double b = this->_direction.Dot(rOrigin);

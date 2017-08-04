@@ -14,7 +14,7 @@ public:
 	Vec3d() = default;
 	explicit Vec3d(double xx) : x(xx), y(xx), z(xx) {}
 	Vec3d(double xx, double yy, double zz) : x(xx), y(yy), z(zz) {}
-//	Vec3d(Vec3d &vec3d) = default;
+	Vec3d(const Vec3d &v) : x(v.x), y(v.y), z(v.z) {}
 	~Vec3d() = default;
 
 	Vec3d&	Normalize();
@@ -26,9 +26,13 @@ public:
 //	Vec3d	rotationVector(Vec3d &v);
 //	Vec3d	translateVector(Vec3d &v);
 
-	double GetX() const;
-	double GetY() const;
-	double GetZ() const;
+	double &GetX() const;
+	double &GetY() const;
+	double &GetZ() const;
+
+	void    SetX(const double &xx);
+	void    SetY(const double &yy);
+	void    SetZ(const double &zz);
 
 	Vec3d operator * (const double &f) const;
 	Vec3d operator * (const Vec3d &v) const;

@@ -103,6 +103,9 @@
 		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/Render/Light.cpp">
 			<Option target="Render"/>
 		</Unit>
+		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/Render/Matrix.cpp">
+			<Option target="Render"/>
+		</Unit>
 		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/Render/Plane.cpp">
 			<Option target="Render"/>
 		</Unit>
@@ -122,6 +125,9 @@
 			<Option target="Render"/>
 		</Unit>
 		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/Render/includes">
+			<Option target="Render"/>
+		</Unit>
+		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/Render/includes/Matrix.h">
 			<Option target="Render"/>
 		</Unit>
 		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/Render/includes/Triangle.h">

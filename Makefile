@@ -14,16 +14,17 @@ NAME = RenderCPP
 
 SRCCPP =		main.cpp \
 				Render.cpp \
+				Window.cpp \
                 Camera.cpp \
+                Vec3d.cpp \
                 Light.cpp \
                 Sphere.cpp \
                 Plane.cpp \
                 Cylinder.cpp \
                 Cone.cpp \
                 Triangle.cpp \
-                Vec3d.cpp \
-                Window.cpp \
-                KeyboardMouseControl.cpp
+                KeyboardMouseControl.cpp \
+                Matrix.cpp
 
 
 

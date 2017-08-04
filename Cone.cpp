@@ -16,7 +16,7 @@ Cone::Cone(Vec3d &&position, Vec3d &&direction, Vec3d &&color, double &&angle)
 }
 
 bool Cone::Intersection(const Vec3d &rOrigin, const Vec3d &rDir,
-                        std::shared_ptr<Camera> &camera)
+                        std::unique_ptr<Camera> &camera)
 {
     int     A = 0;
     int     B = 1;

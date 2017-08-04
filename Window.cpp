@@ -16,9 +16,7 @@ Window::Window(int width, int height)
 }
 
 Window::~Window()
-{
-	return ;
-}
+{}
 
 void Window::PrepareWindowAndImage()
 {
@@ -27,13 +25,11 @@ void Window::PrepareWindowAndImage()
     nameWindow = "RenderCPP";
 	SetMlx(mlx_init());
 	SetWin(mlx_new_window(GetMlx(), _width, _height, (char *) nameWindow));
-	return ;
 }
 
 void Window::ClearWindow()
 {
 	mlx_clear_window(GetMlx(), GetWin());
-	return ;
 }
 
 void Window::CreateImage()
@@ -42,44 +38,40 @@ void Window::CreateImage()
 
 	SetImage(mlx_new_image(GetMlx(), GetWidth(), GetHeight()));
 	SetLine(mlx_get_data_addr(GetImage(), &a[0], &a[1], &a[2]));
-	return ;
 }
 
 void Window::PutImageToWindow()
 {
 	mlx_put_image_to_window(GetMlx(), GetWin(), GetImage(), 0, 0);
-	return ;
 }
 
 void Window::KeyboardControl()
 {
 	//TODO зробити клас, який буде включати в себе Window, Camera, List
 //	mlx_hook(mod->w->win, 2, 5, my_key_funct, mod);
-	return ;
 }
 
 void Window::InfinityShowingImage()
 {
 	mlx_loop(GetMlx());
-	return ;
 }
 
-void* Window::GetMlx() const
+void* Window::GetMlx()
 {
 	return this->_mlx;
 }
 
-void* Window::GetWin() const
+void* Window::GetWin()
 {
 	return this->_win;
 }
 
-void* Window::GetImage() const
+void* Window::GetImage()
 {
 	return this->_image;
 }
 
-char* Window::GetLine() const
+char* Window::GetLine()
 {
 	return this->line;
 }

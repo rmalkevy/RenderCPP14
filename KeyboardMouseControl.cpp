@@ -10,19 +10,25 @@ KeyboardMouseControl::KeyboardMouseControl(std::shared_ptr<Render> &render)
     this->_render = render;
 }
 
+KeyboardMouseControl::~KeyboardMouseControl()
+{
+	std::cout << "destruct KeyboardKontrol" << std::endl;
+}
+
 //KeyboardMouseControl::~KeyboardMouseControl() {}
 
 int		my_key_funct(int keycode, void *mod)
 {
     auto render = *static_cast<std::shared_ptr<Render>*>(mod);
-    mlx_destroy_image(render->window->GetMlx(), render->window->GetImage());
+//    mlx_destroy_image(render->window->GetMlx(), render->window->GetImage());
     if (keycode == 53)
     {
         mlx_destroy_window(render->window->GetMlx(), render->window->GetWin());
         exit(0);
     }
+//	return (0);
 //    addition_funct(keycode, mod);
-	TracingScreen(render);
+//	TracingScreen(render); // TODO заторможує виконання програми, якщо відсутня умова про клавіші
     return (0);
 }
 

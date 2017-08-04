@@ -24,10 +24,10 @@ public:
 	void	KeyboardControl();
 	void	InfinityShowingImage();
 
-	void	*GetMlx() const;
-	void	*GetWin() const;
-	void	*GetImage() const;
-	char	*GetLine() const;
+	void	*GetMlx();
+	void	*GetWin();
+	void	*GetImage();
+	char	*GetLine();
 	int 	GetWidth() const;
 	int		GetHeight() const;
 

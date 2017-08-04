@@ -16,7 +16,7 @@ Cylinder::Cylinder(Vec3d &&position, Vec3d &&direction,
 
 bool Cylinder::Intersection(const Vec3d &rOrigin,
                             const Vec3d &rDir,
-                            std::shared_ptr<Camera> &camera)
+                            std::unique_ptr<Camera> &camera)
 {
     double	dot;
     Vec3d	mult;

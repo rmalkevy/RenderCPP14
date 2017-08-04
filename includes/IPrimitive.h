@@ -14,7 +14,7 @@ public:
     IPrimitive() = default;
     virtual ~IPrimitive() = default;
     virtual bool	Intersection(const Vec3d &rOrigin, const Vec3d &rDir,
-                                 std::shared_ptr<Camera> &camera) = 0;
+                                 std::unique_ptr<Camera> &camera) = 0;
     virtual Vec3d	FindNormal(const Vec3d &intersectionPoint) = 0;
     virtual Vec3d	GetColor() = 0;
 

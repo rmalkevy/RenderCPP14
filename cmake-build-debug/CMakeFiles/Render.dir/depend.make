@@ -9,8 +9,8 @@ CMakeFiles/Render.dir/Camera.cpp.o: ../includes/Vec3d.h
 CMakeFiles/Render.dir/Cone.cpp.o: ../Cone.cpp
 CMakeFiles/Render.dir/Cone.cpp.o: ../includes/Camera.h
 CMakeFiles/Render.dir/Cone.cpp.o: ../includes/Cone.h
+CMakeFiles/Render.dir/Cone.cpp.o: ../includes/IPrimitive.h
 CMakeFiles/Render.dir/Cone.cpp.o: ../includes/Light.h
-CMakeFiles/Render.dir/Cone.cpp.o: ../includes/Primitive.h
 CMakeFiles/Render.dir/Cone.cpp.o: ../includes/Render.h
 CMakeFiles/Render.dir/Cone.cpp.o: ../includes/RenderFunctions.h
 CMakeFiles/Render.dir/Cone.cpp.o: ../includes/Vec3d.h
@@ -20,8 +20,8 @@ CMakeFiles/Render.dir/Cone.cpp.o: ../minilibx/mlx.h
 CMakeFiles/Render.dir/Cylinder.cpp.o: ../Cylinder.cpp
 CMakeFiles/Render.dir/Cylinder.cpp.o: ../includes/Camera.h
 CMakeFiles/Render.dir/Cylinder.cpp.o: ../includes/Cylinder.h
+CMakeFiles/Render.dir/Cylinder.cpp.o: ../includes/IPrimitive.h
 CMakeFiles/Render.dir/Cylinder.cpp.o: ../includes/Light.h
-CMakeFiles/Render.dir/Cylinder.cpp.o: ../includes/Primitive.h
 CMakeFiles/Render.dir/Cylinder.cpp.o: ../includes/Render.h
 CMakeFiles/Render.dir/Cylinder.cpp.o: ../includes/RenderFunctions.h
 CMakeFiles/Render.dir/Cylinder.cpp.o: ../includes/Vec3d.h
@@ -30,9 +30,9 @@ CMakeFiles/Render.dir/Cylinder.cpp.o: ../minilibx/mlx.h
 
 CMakeFiles/Render.dir/KeyboardMouseControl.cpp.o: ../KeyboardMouseControl.cpp
 CMakeFiles/Render.dir/KeyboardMouseControl.cpp.o: ../includes/Camera.h
+CMakeFiles/Render.dir/KeyboardMouseControl.cpp.o: ../includes/IPrimitive.h
 CMakeFiles/Render.dir/KeyboardMouseControl.cpp.o: ../includes/KeyboardMouseControl.h
 CMakeFiles/Render.dir/KeyboardMouseControl.cpp.o: ../includes/Light.h
-CMakeFiles/Render.dir/KeyboardMouseControl.cpp.o: ../includes/Primitive.h
 CMakeFiles/Render.dir/KeyboardMouseControl.cpp.o: ../includes/Render.h
 CMakeFiles/Render.dir/KeyboardMouseControl.cpp.o: ../includes/RenderFunctions.h
 CMakeFiles/Render.dir/KeyboardMouseControl.cpp.o: ../includes/Vec3d.h
@@ -45,15 +45,15 @@ CMakeFiles/Render.dir/Light.cpp.o: ../includes/Vec3d.h
 
 CMakeFiles/Render.dir/Plane.cpp.o: ../Plane.cpp
 CMakeFiles/Render.dir/Plane.cpp.o: ../includes/Camera.h
+CMakeFiles/Render.dir/Plane.cpp.o: ../includes/IPrimitive.h
 CMakeFiles/Render.dir/Plane.cpp.o: ../includes/Light.h
 CMakeFiles/Render.dir/Plane.cpp.o: ../includes/Plane.h
-CMakeFiles/Render.dir/Plane.cpp.o: ../includes/Primitive.h
 CMakeFiles/Render.dir/Plane.cpp.o: ../includes/Vec3d.h
 
 CMakeFiles/Render.dir/Render.cpp.o: ../Render.cpp
 CMakeFiles/Render.dir/Render.cpp.o: ../includes/Camera.h
+CMakeFiles/Render.dir/Render.cpp.o: ../includes/IPrimitive.h
 CMakeFiles/Render.dir/Render.cpp.o: ../includes/Light.h
-CMakeFiles/Render.dir/Render.cpp.o: ../includes/Primitive.h
 CMakeFiles/Render.dir/Render.cpp.o: ../includes/Render.h
 CMakeFiles/Render.dir/Render.cpp.o: ../includes/Vec3d.h
 CMakeFiles/Render.dir/Render.cpp.o: ../includes/Window.h
@@ -61,14 +61,21 @@ CMakeFiles/Render.dir/Render.cpp.o: ../minilibx/mlx.h
 
 CMakeFiles/Render.dir/Sphere.cpp.o: ../Sphere.cpp
 CMakeFiles/Render.dir/Sphere.cpp.o: ../includes/Camera.h
+CMakeFiles/Render.dir/Sphere.cpp.o: ../includes/IPrimitive.h
 CMakeFiles/Render.dir/Sphere.cpp.o: ../includes/Light.h
-CMakeFiles/Render.dir/Sphere.cpp.o: ../includes/Primitive.h
 CMakeFiles/Render.dir/Sphere.cpp.o: ../includes/Render.h
 CMakeFiles/Render.dir/Sphere.cpp.o: ../includes/RenderFunctions.h
 CMakeFiles/Render.dir/Sphere.cpp.o: ../includes/Sphere.h
 CMakeFiles/Render.dir/Sphere.cpp.o: ../includes/Vec3d.h
 CMakeFiles/Render.dir/Sphere.cpp.o: ../includes/Window.h
 CMakeFiles/Render.dir/Sphere.cpp.o: ../minilibx/mlx.h
+
+CMakeFiles/Render.dir/Triangle.cpp.o: ../Triangle.cpp
+CMakeFiles/Render.dir/Triangle.cpp.o: ../includes/Camera.h
+CMakeFiles/Render.dir/Triangle.cpp.o: ../includes/IPrimitive.h
+CMakeFiles/Render.dir/Triangle.cpp.o: ../includes/Light.h
+CMakeFiles/Render.dir/Triangle.cpp.o: ../includes/Triangle.h
+CMakeFiles/Render.dir/Triangle.cpp.o: ../includes/Vec3d.h
 
 CMakeFiles/Render.dir/Vec3d.cpp.o: ../Vec3d.cpp
 CMakeFiles/Render.dir/Vec3d.cpp.o: ../includes/Vec3d.h
@@ -80,13 +87,14 @@ CMakeFiles/Render.dir/Window.cpp.o: ../minilibx/mlx.h
 CMakeFiles/Render.dir/main.cpp.o: ../includes/Camera.h
 CMakeFiles/Render.dir/main.cpp.o: ../includes/Cone.h
 CMakeFiles/Render.dir/main.cpp.o: ../includes/Cylinder.h
+CMakeFiles/Render.dir/main.cpp.o: ../includes/IPrimitive.h
 CMakeFiles/Render.dir/main.cpp.o: ../includes/KeyboardMouseControl.h
 CMakeFiles/Render.dir/main.cpp.o: ../includes/Light.h
 CMakeFiles/Render.dir/main.cpp.o: ../includes/Plane.h
-CMakeFiles/Render.dir/main.cpp.o: ../includes/Primitive.h
 CMakeFiles/Render.dir/main.cpp.o: ../includes/Render.h
 CMakeFiles/Render.dir/main.cpp.o: ../includes/RenderFunctions.h
 CMakeFiles/Render.dir/main.cpp.o: ../includes/Sphere.h
+CMakeFiles/Render.dir/main.cpp.o: ../includes/Triangle.h
 CMakeFiles/Render.dir/main.cpp.o: ../includes/Vec3d.h
 CMakeFiles/Render.dir/main.cpp.o: ../includes/Window.h
 CMakeFiles/Render.dir/main.cpp.o: ../main.cpp

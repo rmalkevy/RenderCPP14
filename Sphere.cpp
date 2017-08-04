@@ -16,7 +16,7 @@ Sphere::Sphere( Vec3d &&position, Vec3d &&color, double &&radius )
 
 bool Sphere::Intersection(const Vec3d &rOrigin,
                           const Vec3d &rDir,
-                          std::shared_ptr<Camera> &camera)
+                          std::unique_ptr<Camera> &camera)
 {
 	Vec3d len = rOrigin - _pos;
 

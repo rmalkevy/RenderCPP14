@@ -16,7 +16,7 @@ public:
 	         const Vec3d &&color, const Vec3d &&direction);
 	~Triangle() = default;
 	bool	Intersection(const Vec3d &rOrigin, const Vec3d &rDir,
-	                     std::shared_ptr<Camera> &camera) override ;
+	                     std::unique_ptr<Camera> &camera) override ;
 	Vec3d	FindNormal(const Vec3d &intersectionPoint) override ;
 	Vec3d	GetColor() override ;
 

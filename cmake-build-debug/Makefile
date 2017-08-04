@@ -258,6 +258,33 @@ Light.cpp.s:
 	$(MAKE) -f CMakeFiles/Render.dir/build.make CMakeFiles/Render.dir/Light.cpp.s
 .PHONY : Light.cpp.s
 
+Matrix.o: Matrix.cpp.o
+
+.PHONY : Matrix.o
+
+# target to build an object file
+Matrix.cpp.o:
+	$(MAKE) -f CMakeFiles/Render.dir/build.make CMakeFiles/Render.dir/Matrix.cpp.o
+.PHONY : Matrix.cpp.o
+
+Matrix.i: Matrix.cpp.i
+
+.PHONY : Matrix.i
+
+# target to preprocess a source file
+Matrix.cpp.i:
+	$(MAKE) -f CMakeFiles/Render.dir/build.make CMakeFiles/Render.dir/Matrix.cpp.i
+.PHONY : Matrix.cpp.i
+
+Matrix.s: Matrix.cpp.s
+
+.PHONY : Matrix.s
+
+# target to generate assembly for a file
+Matrix.cpp.s:
+	$(MAKE) -f CMakeFiles/Render.dir/build.make CMakeFiles/Render.dir/Matrix.cpp.s
+.PHONY : Matrix.cpp.s
+
 Plane.o: Plane.cpp.o
 
 .PHONY : Plane.o
@@ -471,6 +498,9 @@ help:
 	@echo "... Light.o"
 	@echo "... Light.i"
 	@echo "... Light.s"
+	@echo "... Matrix.o"
+	@echo "... Matrix.i"
+	@echo "... Matrix.s"
 	@echo "... Plane.o"
 	@echo "... Plane.i"
 	@echo "... Plane.s"

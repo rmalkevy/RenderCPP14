@@ -7,8 +7,9 @@
 
 #include "Vec3d.h"
 #include "Light.h"
+#include "Matrix.h"
 
-class Camera final
+class Camera : public Matrix
 {
 public:
 	Camera(const Vec3d &origin, const Light &light);
@@ -32,7 +33,7 @@ public:
 private:
 	Vec3d	direction;
 	Vec3d	position;
-	Vec3d	angle;
+	Vec3d	angle3d;
 	double	maxDistance;
 
 };
