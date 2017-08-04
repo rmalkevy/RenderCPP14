@@ -18,9 +18,12 @@ public:
 //	KeyboardMouseControl &operator = (const KeyboardMouseControl &control);
 
     void KeyboardControl();
+	void RotateCamera(int keycode);
+
+	constexpr static const double Angle = 0.01;
 
 private:
-	std::shared_ptr<Render> _render;
+	std::shared_ptr<Render> _render = nullptr;
 };
 
 #endif //RENDERCPP_KEYBOARDMOUSECONTROL_H

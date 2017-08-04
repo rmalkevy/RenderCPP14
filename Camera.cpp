@@ -6,10 +6,10 @@
 
 Camera::Camera(Vec3d const &origin, const Light &light)
 {
-	setPosition(origin);
-	setDirection(Vec3d(0, 0, 1));
-	setAngle(Vec3d(0, 0, 0));
-	this->maxDistance = 100000;
+	_position = origin;
+	_direction = Vec3d(0, 0, 1);
+	_angle3d = Vec3d(0, 0, 0);
+	_maxDistance = 100000;
 	this->light = light;
 }
 
@@ -18,48 +18,49 @@ Camera::~Camera()
 	std::cout << "Destructor Camera" << std::endl;
 }
 
-void Camera::findDirection(Vec3d const &pixel)
+void Camera::findDirection(const Vec3d &pixel)
 {
 	Vec3d dir = pixel - getPosition();
 	setDirection(dir.Normalize());
 }
 
-void Camera::setDirection(Vec3d const &dir)
+void Camera::setDirection(const Vec3d &dir)
 {
-	this->direction = dir;
+	_direction = dir;
 }
 
-void Camera::setPosition(Vec3d const &orig)
+void Camera::setPosition(const Vec3d &orig)
 {
-	this->position = orig;
+	_position = orig;
 }
 
-void Camera::setAngle(Vec3d const &angle)
+int Camera::setAngle(const Vec3d &angle)
 {
-	this->angle3d = angle;
+	_angle3d += angle;
+	return ( 1 );
 }
 
-void Camera::setMaxDistance(double const &dist)
+void Camera::setMaxDistance(const double &dist)
 {
-	this->maxDistance = dist;
+	_maxDistance = dist;
 }
 
 Vec3d Camera::getDirection() const
 {
-	return this->direction;
+	return _direction;
 }
 
 Vec3d Camera::getPosition() const
 {
-	return  this->position;
+	return  _position;
 }
 
 Vec3d Camera::getAngle() const
 {
-	return this->angle3d;
+	return _angle3d;
 }
 
 double Camera::getMaxDistance() const
 {
-	return this->maxDistance;
+	return _maxDistance;
 }

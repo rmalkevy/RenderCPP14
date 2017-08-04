@@ -26,9 +26,9 @@ public:
 //	Vec3d	rotationVector(Vec3d &v);
 //	Vec3d	translateVector(Vec3d &v);
 
-	double &GetX() const;
-	double &GetY() const;
-	double &GetZ() const;
+	double  GetX() const;
+	double  GetY() const;
+	double  GetZ() const;
 
 	void    SetX(const double &xx);
 	void    SetY(const double &yy);

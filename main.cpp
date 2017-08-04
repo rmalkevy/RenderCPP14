@@ -34,8 +34,8 @@ Vec3d	makePixelColor(std::unique_ptr<Camera> &camera, const double &intensity)
 
 bool   findShadow(std::unique_ptr<Camera> &camera,
                   std::list<std::shared_ptr<IPrimitive>> &listPrimitives,
-                  Vec3d rayOrig,
-                  Vec3d rayDir )
+                  const Vec3d &rayOrig,
+                  const Vec3d &rayDir )
 {
     for (auto it : listPrimitives)
     {
@@ -98,9 +98,13 @@ void	TracingScreen(std::shared_ptr<Render> &render)
         for (int x = -halfWidth; x < halfWidth; x++)
         {
             // TODO потім дописати поворот pixel
+	        Vec3d pixel = render->camera->rotateVec3d(Vec3d(x, y, 0), Vec3d(0, 0, 0.5));
+//	        std::cout << "pixel X = " << pixel.GetX() << " Y = " << pixel.GetY() << " Z = " << pixel.GetZ() << std::endl;
             render->camera->intersect = false;
 	        render->camera->color = Vec3d(0);
-	        render->camera->findDirection(Vec3d(x, y, 0));
+	        render->camera->findDirection(pixel);
+//	        Vec3d dir = render->camera->getDirection();
+//	        std::cout << "dir X = " << dir.GetX() << " Y = " << dir.GetY() << " Z = " << dir.GetZ() << std::endl;
 	        render->camera->setMaxDistance(1000000);
 	        RenderPixel(render->camera, render->listPrimitives,
 	                    render->camera->getPosition(), render->camera->getDirection());

@@ -15,11 +15,11 @@ public:
 	Camera(const Vec3d &origin, const Light &light);
 	~Camera();
 
-	void	findDirection(Vec3d const &pixel);
-	void	setDirection(Vec3d const &dir);
-	void	setPosition(Vec3d const &orig);
-	void	setAngle(Vec3d const &angle);
-	void	setMaxDistance(double const &dist);
+	void	findDirection(const Vec3d &pixel);
+	void	setDirection(const Vec3d &dir);
+	void	setPosition(const Vec3d &orig);
+	int     setAngle(const Vec3d &angle);
+	void	setMaxDistance(const double &dist);
 	Vec3d	getDirection() const;
 	Vec3d	getPosition() const;
 	Vec3d	getAngle() const;
@@ -31,10 +31,10 @@ public:
 	Light	light;
 
 private:
-	Vec3d	direction;
-	Vec3d	position;
-	Vec3d	angle3d;
-	double	maxDistance;
+	Vec3d	_direction;
+	Vec3d	_position;
+	Vec3d	_angle3d;
+	double	_maxDistance;
 
 };
 #endif //RENDERCPP_CAMERA_H

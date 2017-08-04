@@ -9,7 +9,7 @@
 
 class Matrix
 {
-protected:
+public:
 	Matrix() = default;
 	virtual ~Matrix() = default;
 	void    calculationRotationCoefficients(const Vec3d &angle3d);
@@ -17,7 +17,8 @@ protected:
 	Vec3d	rotateVec3d(const Vec3d &v, const Vec3d &angle3d);
 	Vec3d	translateVec3d(const Vec3d &v, const Vec3d &translate3d) const;
 
-private:
+//private: TODO наслідування приватних змінних перевірити як це відбувається
+
 	double _cosX = 0;
 	double _cosY = 0;
 	double _cosZ = 0;
