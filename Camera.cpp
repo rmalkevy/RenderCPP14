@@ -20,8 +20,8 @@ Camera::~Camera()
 
 void Camera::findDirection(const Vec3d &pixel)
 {
-	Vec3d dir = pixel - getPosition();
-	setDirection(dir.Normalize());
+	_direction = pixel - _position;
+	_direction.Normalize();
 }
 
 void Camera::setDirection(const Vec3d &dir)
