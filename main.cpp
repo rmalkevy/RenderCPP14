@@ -1,3 +1,6 @@
+//
+// Created by Roman Malkevych on 7/13/17.
+//
 
 #include "includes/Triangle.h"
 #include "includes/Render.h"
@@ -7,10 +10,6 @@
 #include "includes/Cone.h"
 #include "includes/RenderFunctions.h"
 #include "includes/KeyboardMouseControl.h"
-
-//
-// Created by Roman Malkevych on 7/13/17.
-//
 
 void    putColorToPixel(std::unique_ptr<Window> &window, const Vec3d &color, const double &x, const double &y)
 {
@@ -57,9 +56,8 @@ Vec3d	tracingLight( std::unique_ptr<Camera> &camera,
 
     camera->light._rayOrigin = camera->hitPoint;
     camera->light._rayDirection = distance.Normalize();
-    bool shadow = false;
 
-    shadow = findShadow(camera, listPrimitives, camera->light._rayOrigin, camera->light._rayDirection);
+    bool shadow = findShadow(camera, listPrimitives, camera->light._rayOrigin, camera->light._rayDirection);
 	if (!shadow)
 	{
         return makePixelColor(camera, 1);

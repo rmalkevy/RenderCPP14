@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Volumes/CLion/CLion.app/Contents/bin/cmake/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /Volumes/CLion/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /nfs/2016/r/rmalkevy/CLionProjects/Render
+CMAKE_SOURCE_DIR = /Users/mac/CLionProjects/RenderCPP14
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /nfs/2016/r/rmalkevy/CLionProjects/Render/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/mac/CLionProjects/RenderCPP14/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Render.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Render.dir/flags.make
 
 CMakeFiles/Render.dir/main.cpp.o: CMakeFiles/Render.dir/flags.make
 CMakeFiles/Render.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/r/rmalkevy/CLionProjects/Render/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Render.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Render.dir/main.cpp.o -c /nfs/2016/r/rmalkevy/CLionProjects/Render/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/CLionProjects/RenderCPP14/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Render.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Render.dir/main.cpp.o -c /Users/mac/CLionProjects/RenderCPP14/main.cpp
 
 CMakeFiles/Render.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Render.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nfs/2016/r/rmalkevy/CLionProjects/Render/main.cpp > CMakeFiles/Render.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac/CLionProjects/RenderCPP14/main.cpp > CMakeFiles/Render.dir/main.cpp.i
 
 CMakeFiles/Render.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Render.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nfs/2016/r/rmalkevy/CLionProjects/Render/main.cpp -o CMakeFiles/Render.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac/CLionProjects/RenderCPP14/main.cpp -o CMakeFiles/Render.dir/main.cpp.s
 
 CMakeFiles/Render.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/Render.dir/main.cpp.o.provides.build: CMakeFiles/Render.dir/main.cpp.
 
 CMakeFiles/Render.dir/Render.cpp.o: CMakeFiles/Render.dir/flags.make
 CMakeFiles/Render.dir/Render.cpp.o: ../Render.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/r/rmalkevy/CLionProjects/Render/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Render.dir/Render.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Render.dir/Render.cpp.o -c /nfs/2016/r/rmalkevy/CLionProjects/Render/Render.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/CLionProjects/RenderCPP14/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Render.dir/Render.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Render.dir/Render.cpp.o -c /Users/mac/CLionProjects/RenderCPP14/Render.cpp
 
 CMakeFiles/Render.dir/Render.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Render.dir/Render.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nfs/2016/r/rmalkevy/CLionProjects/Render/Render.cpp > CMakeFiles/Render.dir/Render.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac/CLionProjects/RenderCPP14/Render.cpp > CMakeFiles/Render.dir/Render.cpp.i
 
 CMakeFiles/Render.dir/Render.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Render.dir/Render.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nfs/2016/r/rmalkevy/CLionProjects/Render/Render.cpp -o CMakeFiles/Render.dir/Render.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac/CLionProjects/RenderCPP14/Render.cpp -o CMakeFiles/Render.dir/Render.cpp.s
 
 CMakeFiles/Render.dir/Render.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/Render.dir/Render.cpp.o.provides.build: CMakeFiles/Render.dir/Render.
 
 CMakeFiles/Render.dir/Vec3d.cpp.o: CMakeFiles/Render.dir/flags.make
 CMakeFiles/Render.dir/Vec3d.cpp.o: ../Vec3d.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/r/rmalkevy/CLionProjects/Render/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Render.dir/Vec3d.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Render.dir/Vec3d.cpp.o -c /nfs/2016/r/rmalkevy/CLionProjects/Render/Vec3d.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/CLionProjects/RenderCPP14/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Render.dir/Vec3d.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Render.dir/Vec3d.cpp.o -c /Users/mac/CLionProjects/RenderCPP14/Vec3d.cpp
 
 CMakeFiles/Render.dir/Vec3d.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Render.dir/Vec3d.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nfs/2016/r/rmalkevy/CLionProjects/Render/Vec3d.cpp > CMakeFiles/Render.dir/Vec3d.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac/CLionProjects/RenderCPP14/Vec3d.cpp > CMakeFiles/Render.dir/Vec3d.cpp.i
 
 CMakeFiles/Render.dir/Vec3d.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Render.dir/Vec3d.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nfs/2016/r/rmalkevy/CLionProjects/Render/Vec3d.cpp -o CMakeFiles/Render.dir/Vec3d.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac/CLionProjects/RenderCPP14/Vec3d.cpp -o CMakeFiles/Render.dir/Vec3d.cpp.s
 
 CMakeFiles/Render.dir/Vec3d.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/Render.dir/Vec3d.cpp.o.provides.build: CMakeFiles/Render.dir/Vec3d.cp
 
 CMakeFiles/Render.dir/Window.cpp.o: CMakeFiles/Render.dir/flags.make
 CMakeFiles/Render.dir/Window.cpp.o: ../Window.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/r/rmalkevy/CLionProjects/Render/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Render.dir/Window.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Render.dir/Window.cpp.o -c /nfs/2016/r/rmalkevy/CLionProjects/Render/Window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/CLionProjects/RenderCPP14/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Render.dir/Window.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Render.dir/Window.cpp.o -c /Users/mac/CLionProjects/RenderCPP14/Window.cpp
 
 CMakeFiles/Render.dir/Window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Render.dir/Window.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nfs/2016/r/rmalkevy/CLionProjects/Render/Window.cpp > CMakeFiles/Render.dir/Window.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac/CLionProjects/RenderCPP14/Window.cpp > CMakeFiles/Render.dir/Window.cpp.i
 
 CMakeFiles/Render.dir/Window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Render.dir/Window.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nfs/2016/r/rmalkevy/CLionProjects/Render/Window.cpp -o CMakeFiles/Render.dir/Window.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac/CLionProjects/RenderCPP14/Window.cpp -o CMakeFiles/Render.dir/Window.cpp.s
 
 CMakeFiles/Render.dir/Window.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/Render.dir/Window.cpp.o.provides.build: CMakeFiles/Render.dir/Window.
 
 CMakeFiles/Render.dir/Camera.cpp.o: CMakeFiles/Render.dir/flags.make
 CMakeFiles/Render.dir/Camera.cpp.o: ../Camera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/r/rmalkevy/CLionProjects/Render/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Render.dir/Camera.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Render.dir/Camera.cpp.o -c /nfs/2016/r/rmalkevy/CLionProjects/Render/Camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/CLionProjects/RenderCPP14/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Render.dir/Camera.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Render.dir/Camera.cpp.o -c /Users/mac/CLionProjects/RenderCPP14/Camera.cpp
 
 CMakeFiles/Render.dir/Camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Render.dir/Camera.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nfs/2016/r/rmalkevy/CLionProjects/Render/Camera.cpp > CMakeFiles/Render.dir/Camera.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac/CLionProjects/RenderCPP14/Camera.cpp > CMakeFiles/Render.dir/Camera.cpp.i
 
 CMakeFiles/Render.dir/Camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Render.dir/Camera.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nfs/2016/r/rmalkevy/CLionProjects/Render/Camera.cpp -o CMakeFiles/Render.dir/Camera.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac/CLionProjects/RenderCPP14/Camera.cpp -o CMakeFiles/Render.dir/Camera.cpp.s
 
 CMakeFiles/Render.dir/Camera.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/Render.dir/Camera.cpp.o.provides.build: CMakeFiles/Render.dir/Camera.
 
 CMakeFiles/Render.dir/KeyboardMouseControl.cpp.o: CMakeFiles/Render.dir/flags.make
 CMakeFiles/Render.dir/KeyboardMouseControl.cpp.o: ../KeyboardMouseControl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/r/rmalkevy/CLionProjects/Render/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Render.dir/KeyboardMouseControl.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Render.dir/KeyboardMouseControl.cpp.o -c /nfs/2016/r/rmalkevy/CLionProjects/Render/KeyboardMouseControl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/CLionProjects/RenderCPP14/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Render.dir/KeyboardMouseControl.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Render.dir/KeyboardMouseControl.cpp.o -c /Users/mac/CLionProjects/RenderCPP14/KeyboardMouseControl.cpp
 
 CMakeFiles/Render.dir/KeyboardMouseControl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Render.dir/KeyboardMouseControl.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nfs/2016/r/rmalkevy/CLionProjects/Render/KeyboardMouseControl.cpp > CMakeFiles/Render.dir/KeyboardMouseControl.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac/CLionProjects/RenderCPP14/KeyboardMouseControl.cpp > CMakeFiles/Render.dir/KeyboardMouseControl.cpp.i
 
 CMakeFiles/Render.dir/KeyboardMouseControl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Render.dir/KeyboardMouseControl.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nfs/2016/r/rmalkevy/CLionProjects/Render/KeyboardMouseControl.cpp -o CMakeFiles/Render.dir/KeyboardMouseControl.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac/CLionProjects/RenderCPP14/KeyboardMouseControl.cpp -o CMakeFiles/Render.dir/KeyboardMouseControl.cpp.s
 
 CMakeFiles/Render.dir/KeyboardMouseControl.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/Render.dir/KeyboardMouseControl.cpp.o.provides.build: CMakeFiles/Rend
 
 CMakeFiles/Render.dir/Light.cpp.o: CMakeFiles/Render.dir/flags.make
 CMakeFiles/Render.dir/Light.cpp.o: ../Light.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/r/rmalkevy/CLionProjects/Render/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Render.dir/Light.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Render.dir/Light.cpp.o -c /nfs/2016/r/rmalkevy/CLionProjects/Render/Light.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/CLionProjects/RenderCPP14/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Render.dir/Light.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Render.dir/Light.cpp.o -c /Users/mac/CLionProjects/RenderCPP14/Light.cpp
 
 CMakeFiles/Render.dir/Light.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Render.dir/Light.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nfs/2016/r/rmalkevy/CLionProjects/Render/Light.cpp > CMakeFiles/Render.dir/Light.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac/CLionProjects/RenderCPP14/Light.cpp > CMakeFiles/Render.dir/Light.cpp.i
 
 CMakeFiles/Render.dir/Light.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Render.dir/Light.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nfs/2016/r/rmalkevy/CLionProjects/Render/Light.cpp -o CMakeFiles/Render.dir/Light.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac/CLionProjects/RenderCPP14/Light.cpp -o CMakeFiles/Render.dir/Light.cpp.s
 
 CMakeFiles/Render.dir/Light.cpp.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/Render.dir/Light.cpp.o.provides.build: CMakeFiles/Render.dir/Light.cp
 
 CMakeFiles/Render.dir/Plane.cpp.o: CMakeFiles/Render.dir/flags.make
 CMakeFiles/Render.dir/Plane.cpp.o: ../Plane.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/r/rmalkevy/CLionProjects/Render/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Render.dir/Plane.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Render.dir/Plane.cpp.o -c /nfs/2016/r/rmalkevy/CLionProjects/Render/Plane.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/CLionProjects/RenderCPP14/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Render.dir/Plane.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Render.dir/Plane.cpp.o -c /Users/mac/CLionProjects/RenderCPP14/Plane.cpp
 
 CMakeFiles/Render.dir/Plane.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Render.dir/Plane.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nfs/2016/r/rmalkevy/CLionProjects/Render/Plane.cpp > CMakeFiles/Render.dir/Plane.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac/CLionProjects/RenderCPP14/Plane.cpp > CMakeFiles/Render.dir/Plane.cpp.i
 
 CMakeFiles/Render.dir/Plane.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Render.dir/Plane.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nfs/2016/r/rmalkevy/CLionProjects/Render/Plane.cpp -o CMakeFiles/Render.dir/Plane.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac/CLionProjects/RenderCPP14/Plane.cpp -o CMakeFiles/Render.dir/Plane.cpp.s
 
 CMakeFiles/Render.dir/Plane.cpp.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/Render.dir/Plane.cpp.o.provides.build: CMakeFiles/Render.dir/Plane.cp
 
 CMakeFiles/Render.dir/Cylinder.cpp.o: CMakeFiles/Render.dir/flags.make
 CMakeFiles/Render.dir/Cylinder.cpp.o: ../Cylinder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/r/rmalkevy/CLionProjects/Render/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Render.dir/Cylinder.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Render.dir/Cylinder.cpp.o -c /nfs/2016/r/rmalkevy/CLionProjects/Render/Cylinder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/CLionProjects/RenderCPP14/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Render.dir/Cylinder.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Render.dir/Cylinder.cpp.o -c /Users/mac/CLionProjects/RenderCPP14/Cylinder.cpp
 
 CMakeFiles/Render.dir/Cylinder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Render.dir/Cylinder.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nfs/2016/r/rmalkevy/CLionProjects/Render/Cylinder.cpp > CMakeFiles/Render.dir/Cylinder.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac/CLionProjects/RenderCPP14/Cylinder.cpp > CMakeFiles/Render.dir/Cylinder.cpp.i
 
 CMakeFiles/Render.dir/Cylinder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Render.dir/Cylinder.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nfs/2016/r/rmalkevy/CLionProjects/Render/Cylinder.cpp -o CMakeFiles/Render.dir/Cylinder.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac/CLionProjects/RenderCPP14/Cylinder.cpp -o CMakeFiles/Render.dir/Cylinder.cpp.s
 
 CMakeFiles/Render.dir/Cylinder.cpp.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/Render.dir/Cylinder.cpp.o.provides.build: CMakeFiles/Render.dir/Cylin
 
 CMakeFiles/Render.dir/Cone.cpp.o: CMakeFiles/Render.dir/flags.make
 CMakeFiles/Render.dir/Cone.cpp.o: ../Cone.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/r/rmalkevy/CLionProjects/Render/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Render.dir/Cone.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Render.dir/Cone.cpp.o -c /nfs/2016/r/rmalkevy/CLionProjects/Render/Cone.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/CLionProjects/RenderCPP14/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Render.dir/Cone.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Render.dir/Cone.cpp.o -c /Users/mac/CLionProjects/RenderCPP14/Cone.cpp
 
 CMakeFiles/Render.dir/Cone.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Render.dir/Cone.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nfs/2016/r/rmalkevy/CLionProjects/Render/Cone.cpp > CMakeFiles/Render.dir/Cone.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac/CLionProjects/RenderCPP14/Cone.cpp > CMakeFiles/Render.dir/Cone.cpp.i
 
 CMakeFiles/Render.dir/Cone.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Render.dir/Cone.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nfs/2016/r/rmalkevy/CLionProjects/Render/Cone.cpp -o CMakeFiles/Render.dir/Cone.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac/CLionProjects/RenderCPP14/Cone.cpp -o CMakeFiles/Render.dir/Cone.cpp.s
 
 CMakeFiles/Render.dir/Cone.cpp.o.requires:
 
@@ -299,16 +299,16 @@ CMakeFiles/Render.dir/Cone.cpp.o.provides.build: CMakeFiles/Render.dir/Cone.cpp.
 
 CMakeFiles/Render.dir/Sphere.cpp.o: CMakeFiles/Render.dir/flags.make
 CMakeFiles/Render.dir/Sphere.cpp.o: ../Sphere.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/r/rmalkevy/CLionProjects/Render/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Render.dir/Sphere.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Render.dir/Sphere.cpp.o -c /nfs/2016/r/rmalkevy/CLionProjects/Render/Sphere.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/CLionProjects/RenderCPP14/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Render.dir/Sphere.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Render.dir/Sphere.cpp.o -c /Users/mac/CLionProjects/RenderCPP14/Sphere.cpp
 
 CMakeFiles/Render.dir/Sphere.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Render.dir/Sphere.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nfs/2016/r/rmalkevy/CLionProjects/Render/Sphere.cpp > CMakeFiles/Render.dir/Sphere.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac/CLionProjects/RenderCPP14/Sphere.cpp > CMakeFiles/Render.dir/Sphere.cpp.i
 
 CMakeFiles/Render.dir/Sphere.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Render.dir/Sphere.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nfs/2016/r/rmalkevy/CLionProjects/Render/Sphere.cpp -o CMakeFiles/Render.dir/Sphere.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac/CLionProjects/RenderCPP14/Sphere.cpp -o CMakeFiles/Render.dir/Sphere.cpp.s
 
 CMakeFiles/Render.dir/Sphere.cpp.o.requires:
 
@@ -323,16 +323,16 @@ CMakeFiles/Render.dir/Sphere.cpp.o.provides.build: CMakeFiles/Render.dir/Sphere.
 
 CMakeFiles/Render.dir/Triangle.cpp.o: CMakeFiles/Render.dir/flags.make
 CMakeFiles/Render.dir/Triangle.cpp.o: ../Triangle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/r/rmalkevy/CLionProjects/Render/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Render.dir/Triangle.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Render.dir/Triangle.cpp.o -c /nfs/2016/r/rmalkevy/CLionProjects/Render/Triangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/CLionProjects/RenderCPP14/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Render.dir/Triangle.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Render.dir/Triangle.cpp.o -c /Users/mac/CLionProjects/RenderCPP14/Triangle.cpp
 
 CMakeFiles/Render.dir/Triangle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Render.dir/Triangle.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nfs/2016/r/rmalkevy/CLionProjects/Render/Triangle.cpp > CMakeFiles/Render.dir/Triangle.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac/CLionProjects/RenderCPP14/Triangle.cpp > CMakeFiles/Render.dir/Triangle.cpp.i
 
 CMakeFiles/Render.dir/Triangle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Render.dir/Triangle.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nfs/2016/r/rmalkevy/CLionProjects/Render/Triangle.cpp -o CMakeFiles/Render.dir/Triangle.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac/CLionProjects/RenderCPP14/Triangle.cpp -o CMakeFiles/Render.dir/Triangle.cpp.s
 
 CMakeFiles/Render.dir/Triangle.cpp.o.requires:
 
@@ -347,16 +347,16 @@ CMakeFiles/Render.dir/Triangle.cpp.o.provides.build: CMakeFiles/Render.dir/Trian
 
 CMakeFiles/Render.dir/Matrix.cpp.o: CMakeFiles/Render.dir/flags.make
 CMakeFiles/Render.dir/Matrix.cpp.o: ../Matrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/r/rmalkevy/CLionProjects/Render/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Render.dir/Matrix.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Render.dir/Matrix.cpp.o -c /nfs/2016/r/rmalkevy/CLionProjects/Render/Matrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/CLionProjects/RenderCPP14/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Render.dir/Matrix.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Render.dir/Matrix.cpp.o -c /Users/mac/CLionProjects/RenderCPP14/Matrix.cpp
 
 CMakeFiles/Render.dir/Matrix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Render.dir/Matrix.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /nfs/2016/r/rmalkevy/CLionProjects/Render/Matrix.cpp > CMakeFiles/Render.dir/Matrix.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac/CLionProjects/RenderCPP14/Matrix.cpp > CMakeFiles/Render.dir/Matrix.cpp.i
 
 CMakeFiles/Render.dir/Matrix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Render.dir/Matrix.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /nfs/2016/r/rmalkevy/CLionProjects/Render/Matrix.cpp -o CMakeFiles/Render.dir/Matrix.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac/CLionProjects/RenderCPP14/Matrix.cpp -o CMakeFiles/Render.dir/Matrix.cpp.s
 
 CMakeFiles/Render.dir/Matrix.cpp.o.requires:
 
@@ -403,7 +403,7 @@ Render: CMakeFiles/Render.dir/Triangle.cpp.o
 Render: CMakeFiles/Render.dir/Matrix.cpp.o
 Render: CMakeFiles/Render.dir/build.make
 Render: CMakeFiles/Render.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/r/rmalkevy/CLionProjects/Render/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable Render"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mac/CLionProjects/RenderCPP14/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable Render"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Render.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -432,6 +432,6 @@ CMakeFiles/Render.dir/clean:
 .PHONY : CMakeFiles/Render.dir/clean
 
 CMakeFiles/Render.dir/depend:
-	cd /nfs/2016/r/rmalkevy/CLionProjects/Render/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /nfs/2016/r/rmalkevy/CLionProjects/Render /nfs/2016/r/rmalkevy/CLionProjects/Render /nfs/2016/r/rmalkevy/CLionProjects/Render/cmake-build-debug /nfs/2016/r/rmalkevy/CLionProjects/Render/cmake-build-debug /nfs/2016/r/rmalkevy/CLionProjects/Render/cmake-build-debug/CMakeFiles/Render.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/mac/CLionProjects/RenderCPP14/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mac/CLionProjects/RenderCPP14 /Users/mac/CLionProjects/RenderCPP14 /Users/mac/CLionProjects/RenderCPP14/cmake-build-debug /Users/mac/CLionProjects/RenderCPP14/cmake-build-debug /Users/mac/CLionProjects/RenderCPP14/cmake-build-debug/CMakeFiles/Render.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Render.dir/depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: /nfs/2016/r/rmalkevy/CLionProjects/Render
+# Install script for directory: /Users/mac/CLionProjects/RenderCPP14
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/nfs/2016/r/rmalkevy/CLionProjects/Render/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/mac/CLionProjects/RenderCPP14/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
