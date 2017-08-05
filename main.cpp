@@ -37,7 +37,7 @@ bool   findShadow(std::unique_ptr<Camera> &camera,
                   const Vec3d &rayOrig,
                   const Vec3d &rayDir )
 {
-    for (auto it : listPrimitives)
+    for (auto &it : listPrimitives)
     {
         if ((*it).Intersection(rayOrig, rayDir, camera) )
             return true;
@@ -73,7 +73,7 @@ void	RenderPixel(std::unique_ptr<Camera> &camera,
                     Vec3d rayDir)
 {
     //for ( std::list<IPrimitive *>::iterator it = listObjects.begin(); it != listObjects.end(); it++ )
-    for (auto it : listPrimitives)
+    for (auto &it : listPrimitives)
     {
         if ((*it).Intersection(rayOrig, rayDir, camera) )
         {
