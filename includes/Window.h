@@ -6,6 +6,7 @@
 #define RENDERCPP_WINDOW_H
 
 #include <iostream>
+#include "Vec3d.h"
 
 extern "C" {
 #include "../minilibx/mlx.h"
@@ -24,6 +25,8 @@ public:
 	void	KeyboardControl();
 	void	InfinityShowingImage();
 
+	void    PutColorToPixel(const Vec3d &color, const int &x, const int &y);
+
 	void	*GetMlx();
 	void	*GetWin();
 	void	*GetImage();
@@ -38,14 +41,15 @@ public:
 	void	SetWidth(int width);
 	void	SetHeight(int height);
 
-	char	*line;
-
 private:
 	int		_width;
+	int     _halfWidth;
 	int		_height;
+	int     _halfHeight;
 	void	*_mlx;
 	void	*_win;
 	void	*_image;
+	char	*_line;
 };
 
 #endif //RENDERCPP_WINDOW_H

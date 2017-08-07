@@ -4,19 +4,19 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/mac/CLionProjects/RenderCPP14/Camera.cpp" "/Users/mac/CLionProjects/RenderCPP14/cmake-build-debug/CMakeFiles/Render.dir/Camera.cpp.o"
-  "/Users/mac/CLionProjects/RenderCPP14/Cone.cpp" "/Users/mac/CLionProjects/RenderCPP14/cmake-build-debug/CMakeFiles/Render.dir/Cone.cpp.o"
-  "/Users/mac/CLionProjects/RenderCPP14/Cylinder.cpp" "/Users/mac/CLionProjects/RenderCPP14/cmake-build-debug/CMakeFiles/Render.dir/Cylinder.cpp.o"
-  "/Users/mac/CLionProjects/RenderCPP14/KeyboardMouseControl.cpp" "/Users/mac/CLionProjects/RenderCPP14/cmake-build-debug/CMakeFiles/Render.dir/KeyboardMouseControl.cpp.o"
-  "/Users/mac/CLionProjects/RenderCPP14/Light.cpp" "/Users/mac/CLionProjects/RenderCPP14/cmake-build-debug/CMakeFiles/Render.dir/Light.cpp.o"
-  "/Users/mac/CLionProjects/RenderCPP14/Matrix.cpp" "/Users/mac/CLionProjects/RenderCPP14/cmake-build-debug/CMakeFiles/Render.dir/Matrix.cpp.o"
-  "/Users/mac/CLionProjects/RenderCPP14/Plane.cpp" "/Users/mac/CLionProjects/RenderCPP14/cmake-build-debug/CMakeFiles/Render.dir/Plane.cpp.o"
-  "/Users/mac/CLionProjects/RenderCPP14/Render.cpp" "/Users/mac/CLionProjects/RenderCPP14/cmake-build-debug/CMakeFiles/Render.dir/Render.cpp.o"
-  "/Users/mac/CLionProjects/RenderCPP14/Sphere.cpp" "/Users/mac/CLionProjects/RenderCPP14/cmake-build-debug/CMakeFiles/Render.dir/Sphere.cpp.o"
-  "/Users/mac/CLionProjects/RenderCPP14/Triangle.cpp" "/Users/mac/CLionProjects/RenderCPP14/cmake-build-debug/CMakeFiles/Render.dir/Triangle.cpp.o"
-  "/Users/mac/CLionProjects/RenderCPP14/Vec3d.cpp" "/Users/mac/CLionProjects/RenderCPP14/cmake-build-debug/CMakeFiles/Render.dir/Vec3d.cpp.o"
-  "/Users/mac/CLionProjects/RenderCPP14/Window.cpp" "/Users/mac/CLionProjects/RenderCPP14/cmake-build-debug/CMakeFiles/Render.dir/Window.cpp.o"
-  "/Users/mac/CLionProjects/RenderCPP14/main.cpp" "/Users/mac/CLionProjects/RenderCPP14/cmake-build-debug/CMakeFiles/Render.dir/main.cpp.o"
+  "/nfs/2016/r/rmalkevy/CLionProjects/Render/Camera.cpp" "/nfs/2016/r/rmalkevy/CLionProjects/Render/cmake-build-debug/CMakeFiles/Render.dir/Camera.cpp.o"
+  "/nfs/2016/r/rmalkevy/CLionProjects/Render/Cone.cpp" "/nfs/2016/r/rmalkevy/CLionProjects/Render/cmake-build-debug/CMakeFiles/Render.dir/Cone.cpp.o"
+  "/nfs/2016/r/rmalkevy/CLionProjects/Render/Cylinder.cpp" "/nfs/2016/r/rmalkevy/CLionProjects/Render/cmake-build-debug/CMakeFiles/Render.dir/Cylinder.cpp.o"
+  "/nfs/2016/r/rmalkevy/CLionProjects/Render/KeyboardMouseControl.cpp" "/nfs/2016/r/rmalkevy/CLionProjects/Render/cmake-build-debug/CMakeFiles/Render.dir/KeyboardMouseControl.cpp.o"
+  "/nfs/2016/r/rmalkevy/CLionProjects/Render/Light.cpp" "/nfs/2016/r/rmalkevy/CLionProjects/Render/cmake-build-debug/CMakeFiles/Render.dir/Light.cpp.o"
+  "/nfs/2016/r/rmalkevy/CLionProjects/Render/Matrix.cpp" "/nfs/2016/r/rmalkevy/CLionProjects/Render/cmake-build-debug/CMakeFiles/Render.dir/Matrix.cpp.o"
+  "/nfs/2016/r/rmalkevy/CLionProjects/Render/Plane.cpp" "/nfs/2016/r/rmalkevy/CLionProjects/Render/cmake-build-debug/CMakeFiles/Render.dir/Plane.cpp.o"
+  "/nfs/2016/r/rmalkevy/CLionProjects/Render/Render.cpp" "/nfs/2016/r/rmalkevy/CLionProjects/Render/cmake-build-debug/CMakeFiles/Render.dir/Render.cpp.o"
+  "/nfs/2016/r/rmalkevy/CLionProjects/Render/Sphere.cpp" "/nfs/2016/r/rmalkevy/CLionProjects/Render/cmake-build-debug/CMakeFiles/Render.dir/Sphere.cpp.o"
+  "/nfs/2016/r/rmalkevy/CLionProjects/Render/Triangle.cpp" "/nfs/2016/r/rmalkevy/CLionProjects/Render/cmake-build-debug/CMakeFiles/Render.dir/Triangle.cpp.o"
+  "/nfs/2016/r/rmalkevy/CLionProjects/Render/Vec3d.cpp" "/nfs/2016/r/rmalkevy/CLionProjects/Render/cmake-build-debug/CMakeFiles/Render.dir/Vec3d.cpp.o"
+  "/nfs/2016/r/rmalkevy/CLionProjects/Render/Window.cpp" "/nfs/2016/r/rmalkevy/CLionProjects/Render/cmake-build-debug/CMakeFiles/Render.dir/Window.cpp.o"
+  "/nfs/2016/r/rmalkevy/CLionProjects/Render/main.cpp" "/nfs/2016/r/rmalkevy/CLionProjects/Render/cmake-build-debug/CMakeFiles/Render.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

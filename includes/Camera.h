@@ -9,6 +9,8 @@
 #include "Light.h"
 #include "Matrix.h"
 
+static const double MaxDistance = 1000000;
+
 class Camera : public Matrix
 {
 public:
@@ -16,6 +18,7 @@ public:
 	~Camera();
 
 	void	findDirection(const Vec3d &pixel);
+	void    findHitPoint();
 	void	setDirection(const Vec3d &dir);
 	void	setPosition(const Vec3d &orig);
 	int     setAngle(const Vec3d &angle);

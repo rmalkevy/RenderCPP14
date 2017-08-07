@@ -56,6 +56,15 @@ void Window::InfinityShowingImage()
 	mlx_loop(GetMlx());
 }
 
+void Window::PutColorToPixel(const Vec3d &color, const int &x, const int &y)
+{
+	int pixel = ((y + _halfHeight) * _width + (x + _halfWidth)) * 4;
+
+	_line[pixel + 0] = (unsigned char)(color.GetZ() * 255);
+	_line[pixel + 1] = (unsigned char)(color.GetY() * 255);
+	_line[pixel + 2] = (unsigned char)(color.GetX() * 255);
+}
+
 void* Window::GetMlx()
 {
 	return this->_mlx;
@@ -109,7 +118,10 @@ void Window::SetLine(char *line)
 void Window::SetWidth(int width)
 {
 	if (width >= 120 && width <= 1200)
-		this->_width = width;
+	{
+		_width = width;
+		_halfWidth = _width / 2;
+	}
 	else
 	{
 		std::cout << "Width must be in range from 120 to 1200!";
@@ -120,7 +132,10 @@ void Window::SetWidth(int width)
 void Window::SetHeight(int height)
 {
 	if (height >= 80 && height <= 800)
-		this->_height = height;
+	{
+		_height = height;
+		_halfHeight = _height / 2;
+	}
 	else
 	{
 		std::cout << "Height must be in range from 80 to 800!";
